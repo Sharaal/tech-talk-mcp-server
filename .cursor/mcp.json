@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "docker",
+      "args": [
+        "run", 
+        "-i", 
+        "--rm", 
+        "mcp/postgres", 
+        "postgresql://postgres:example@host.docker.internal/postgres"]
+    }
+  }
+}
