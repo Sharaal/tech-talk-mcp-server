@@ -1,5 +1,7 @@
 # Tech Talk MCP Server
 
+MCP = Model Context Protocol
+
 ## Without MCP
 
 ![Without MCP](1-without-mcp.png)
@@ -23,7 +25,9 @@ Advantages:
 * A lot of functionalities can be used with every tool
 * The maintainer of functionalities can provide MCP server, indepent of tool 
 
-# Example Postgres
+# Examples
+
+## Example MCP Server: Postgres
 
 ```
 Look at the posgres database via mcp server postgres and create a `database.md` file with the relational database model using mermaid.
@@ -31,7 +35,18 @@ Look at the posgres database via mcp server postgres and create a `database.md` 
 Also make a markdown table with the first row of each table.
 ```
 
-# Example n8n Workflow
+## (Maybe) useful MCP Servers
+
+* [crawl4ai](https://github.com/unclecode/crawl4ai) - Crawl documentation for local knowledge base
+* [Brave](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Request URLs
+* [File system](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Access to file system (outside of project workspace)
+* [Git](https://github.com/modelcontextprotocol/servers/tree/main/src/git) - Commit, branch in the AI chat
+* [Taskmaster AI](https://www.taskmaster.one/) - Task management inside AI chat
+
+Some other maintained by MCP themself: 
+https://github.com/modelcontextprotocol/servers/tree/main/src
+
+## Example usage: n8n Workflow
 
 https://n8n.io/
 
