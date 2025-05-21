@@ -2,6 +2,8 @@
 
 MCP = Model Context Protocol
 
+Created by Anthropic (Claude), supported by OpenAI (ChatGPT).
+
 ## Without MCP
 
 ![Without MCP](1-without-mcp.png)
@@ -23,7 +25,9 @@ The tools only know how to use MCP Servers. The MCP Servers provide functionalit
 
 Advantages:
 * A lot of functionalities can be used with every tool
-* The maintainer of functionalities can provide MCP server, indepent of tool 
+* The maintainer of functionalities can provide MCP server, indepent of the tool 
+
+Functionality = context & actions.
 
 # Examples
 
