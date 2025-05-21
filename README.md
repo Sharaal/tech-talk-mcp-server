@@ -57,3 +57,7 @@ https://n8n.io/
 # Build own MCP Server
 
 https://modelcontextprotocol.io/quickstart/server#node
+
+# Future
+
+* Currently only dev tools supporting it
